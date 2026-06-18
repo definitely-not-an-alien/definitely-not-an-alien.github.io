@@ -29,7 +29,7 @@ github_username: definitely-not-an-alien
 data:
   nav_pages:
     - title: About
-      url: "/index.html/#about-me"
+      url: "/#about-me"
     - projects.md
     - funstuff.md
     - contact.md
