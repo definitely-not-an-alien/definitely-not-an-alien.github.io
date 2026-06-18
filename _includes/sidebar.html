@@ -9,14 +9,13 @@
         <nav class="site-nav">
             <div class="nav-items">
             {%- for path in page_paths -%}
-            <script>console.log({{path | json}})</script>
             {%- assign hyperpage = site.pages | where: "path", path | first -%}
             {%- if hyperpage.title and hyperpage.layout != "default" %}
             <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
             {%- else -%}
             {%- assign hyperpage2 = path -%}
             {%- if hyperpage2.title -%}
-            <a class="nav-item" href="{{ hyperpage2.url | relative_url }}">{{ hyperpage2.title | escape }}</a>
+            <a class="nav-item" href="{{ hyperpage2.url }}">{{ hyperpage2.title | escape }}</a>
             {%- endif -%}
             {%- endif -%}
             {%- endfor %}
