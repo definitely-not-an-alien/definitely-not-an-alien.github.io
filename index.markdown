@@ -13,7 +13,9 @@ Thanks for stumbling upon this site, while you're here, why not look around for 
 * * *
 
 ## about me
-`Greetings, humans!`
+```
+Greetings, humans!
+```
 
 I am <span style="font-family: 'LXGW WenKai TC', 'Noto Serif'; font-size: 22px; font-weight: 900;">Chun Lok Cheung (張浚樂)</span>, a 2nd-Year Computer Science Undergraduate at the University of Oxford (matriculated 2024). 
 
@@ -32,3 +34,10 @@ I was born in Hong Kong and have lived most of my life there. As such, I speak f
 ## about this page
 Well, this page serves as kind of a profile/archive of the fun stuff/projects I will be making/writing before/after this page. A lot of the stuff I've done hasn't been archived so I figured this could be a good start.
  
+
+```
+note: none* of this is vibe-coded btw, 
+all bad code is human-generated or "inspired" by stack overflow posts / tutorials / the theme's repositories 
+;-;
+```
+<span style="font-size: 12px">*\*i am unsure if the dependency libraries are*</span>

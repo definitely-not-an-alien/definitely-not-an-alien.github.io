@@ -72,6 +72,7 @@ footer {
 	margin: 7vh 25px 0 0;
 	-webkit-font-smoothing: antialiased;
     white-space: wrap;
+    text-shadow: none;
 }
 .sidebar .site-title {
     font-size: 15px;
@@ -97,10 +98,10 @@ footer {
     color: #FDFDFB;
 }
 .nav-item:hover {
-    color: #cdcdcc;
+    color: #ffffff;
     // text-decoration: underline;
     font-size: 17px;
-    background-color: #bcf0f650;
+    background-color: #bcf0f610;
 }
 .nav-items {
     display: flex;
