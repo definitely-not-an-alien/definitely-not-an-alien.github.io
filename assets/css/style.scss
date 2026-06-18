@@ -14,6 +14,7 @@ hr {
   background: transparent url('../images/hr.png') 50% 0 / 100% 1px no-repeat;
   border: none;
 }
+
 .footer-inner hr {
     padding-bottom: 0;
 }
@@ -39,6 +40,7 @@ footer {
     background:inherit;
     z-index: 1001;
 }
+
 .topmost-header {
     position:fixed;
     top:0;
@@ -47,6 +49,7 @@ footer {
     anchor-name: --my-anchor;
     background: #e7e7e7 url(../images/topbar-bg.png) 0 0 repeat;
 }
+
 @keyframes sidebar-slide {
     from {width: 0; opacity: 0; overflow: hidden; white-space: nowrap;}
     to {width:7vw; opacity: 100%; overflow:auto; white-space: nowrap;}
@@ -150,4 +153,54 @@ header {
     padding-top: 15px;
     padding-right: 15vw;
     font-size: 18px;
+}
+
+#name {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    font-family: 'LXGW WenKai TC', 'Noto Serif'; font-size: 22px; 
+    font-weight: 900;
+}
+#language-change {
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 30px; 
+    overflow: hidden; 
+    gap: 0px;
+}
+
+#words {
+    animation: langChange 6s infinite;
+    padding:0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+#words div {
+    display: flex;
+    justify-content: center; /* Aligns horizontally */
+    align-items: center;  
+    height: 30px;
+}
+
+@keyframes langChange {
+    0%, 14% {
+        transform: translateY(0); 
+    }
+    19%, 47.33% {
+        transform: translateY(-30px);
+    }
+    52.33%, 80.67%{
+        transform: translateY(-60px);
+    }
+    85.67%, 100%{
+        transform: translateY(-90px);
+    }
 }

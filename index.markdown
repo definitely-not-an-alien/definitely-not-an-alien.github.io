@@ -6,18 +6,24 @@ layout: default
 ---
 
 ## hello you have found me
-You may know me as one of these names: **Amos, Acie, AC, Chun Lok**
-
 Thanks for stumbling upon this site, while you're here, why not look around for a bit? The site's a bit empty for now, but I'll put all the fun, mediocre, not-so-fun, and boring stuff I've been working on here.
 
 * * *
 
-## about me
-```
+## about me.
 Greetings, humans!
-```
-
-I am <span style="font-family: 'LXGW WenKai TC', 'Noto Serif'; font-size: 22px; font-weight: 900;">Chun Lok Cheung (張浚樂)</span>, a 2nd-Year Computer Science Undergraduate at the University of Oxford (matriculated 2024). 
+<div id="name">
+<div id="language-change">
+<div id="words">
+<div>I am</div>
+<div>我係</div>
+<div>我是</div>
+<div>I am</div>
+</div>
+</div> 
+<span style="font-family: 'LXGW WenKai TC', 'Noto Serif'; font-size: 22px; font-weight: 900;">&nbsp;Chun Lok Cheung (張浚樂)</span>
+</div>
+<div style="display:flex; align-items: center; width:100%;justify-content: center;">a 2nd-Year Computer Science Undergraduate at the University of Oxford (matriculated 2024).</div>
 
 You may also know me as
 - Acie
@@ -31,7 +37,7 @@ I don't really have fixed interests and am more keen on exploring more about dif
 
 I was born in Hong Kong and have lived most of my life there. As such, I speak fluent Cantonese, Mandarin, and English. *i did try learning japanese a while ago, but i kind of ran out of free time*
 
-## about this page
+## about this page.
 Well, this page serves as kind of a profile/archive of the fun stuff/projects I will be making/writing before/after this page. A lot of the stuff I've done hasn't been archived so I figured this could be a good start.
  
 
