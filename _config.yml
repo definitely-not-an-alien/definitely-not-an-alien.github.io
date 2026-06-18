@@ -31,6 +31,7 @@ data:
     - title: About
       url: "/#about-me"
     - projects.md
+    - experience.md
     - funstuff.md
     - contact.md
 

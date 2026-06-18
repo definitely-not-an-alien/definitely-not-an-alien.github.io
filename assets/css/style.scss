@@ -79,8 +79,9 @@ footer {
     color: #FDFDFB;
 }
 .sidebar .site-title:hover {
-    color: #cdcdcc;
-    text-decoration: underline;
+    color: #ffffe7;
+    font-size: 17px;
+    // background-color: #bcf0f650;
 }
 .sidebar hr{
     height: 1px;
@@ -97,12 +98,29 @@ footer {
 }
 .nav-item:hover {
     color: #cdcdcc;
-    text-decoration: underline;
+    // text-decoration: underline;
+    font-size: 17px;
+    background-color: #bcf0f650;
 }
 .nav-items {
     display: flex;
     flex-direction: column;
 }
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+.social-icon :hover {
+    opacity: 75%;
+    width: 33px;
+    height: 33px;
+}
+
 @keyframes header-type {
     from {width: 0; overflow: hidden; white-space: nowrap;}
     to {width: 100%; overflow: auto; white-space: wrap;}
@@ -131,16 +149,4 @@ header {
     padding-top: 15px;
     padding-right: 15vw;
     font-size: 18px;
-}
-.socials {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
-.social-icon {
-    width: 30px;
-    height: 30px;
-}
-.social-icon :hover {
-    opacity: 75%;
 }
