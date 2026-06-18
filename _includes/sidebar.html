@@ -1,0 +1,27 @@
+<div class="sidebar">
+    <div class="wrapper">
+        {%- assign page_paths = site.data.nav_pages -%}
+        <!-- {%- assign page_titles = site.pages | map: 'title' | compact %} -->
+        <a class="site-title" rel="author" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+
+        <hr>
+        {%- unless page_paths == empty %}
+        <nav class="site-nav">
+            <div class="nav-items">
+            {%- for path in page_paths -%}
+            <script>console.log({{path | json}})</script>
+            {%- assign hyperpage = site.pages | where: "path", path | first -%}
+            {%- if hyperpage.title and hyperpage.layout != "default" %}
+            <a class="nav-item" href="{{ hyperpage.url | relative_url }}">{{ hyperpage.title | escape }}</a>
+            {%- else -%}
+            {%- assign hyperpage2 = path -%}
+            {%- if hyperpage2.title -%}
+            <a class="nav-item" href="{{ hyperpage2.url | relative_url }}">{{ hyperpage2.title | escape }}</a>
+            {%- endif -%}
+            {%- endif -%}
+            {%- endfor %}
+            </div>
+        </nav>
+        {%- endunless %}
+    </div>
+</div>
