@@ -45,7 +45,7 @@ footer {
     position:fixed;
     top:0;
     width:100%;
-    z-index: 1000;
+    z-index: 998;
     anchor-name: --my-anchor;
     background: #e7e7e7 url(../images/topbar-bg.png) 0 0 repeat;
 }
@@ -76,6 +76,7 @@ footer {
 	-webkit-font-smoothing: antialiased;
     white-space: wrap;
     text-shadow: none;
+    z-index: 1000;
 }
 .sidebar .site-title {
     font-size: 15px;
@@ -126,8 +127,9 @@ footer {
 }
 
 @keyframes header-type {
-    from {width: 0; overflow: hidden; white-space: nowrap;}
-    to {width: 100%; overflow: auto; white-space: wrap;}
+    0% {width: 0; overflow: hidden; white-space: nowrap;}
+    99% {width: 100%; overflow: hidden; white-space: nowrap;}
+    100% {width: 100%; overflow: auto; white-space: wrap;}
 }
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
@@ -143,12 +145,14 @@ header h2 {
   animation-duration: 3s;
 }
 header {
+    margin-left:15%;
     padding-bottom: 10px;
 }
 #main_content {
     position:absolute;
     margin-top: anchor-size(--my-anchor height);
     height: calc(87vh - anchor-size(--my-anchor height));
+    width:inherit;
     overflow-y: auto; 
     padding-top: 15px;
     padding-right: 15vw;
