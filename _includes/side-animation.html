@@ -1,0 +1,9 @@
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        if (!sessionStorage.getItem("sidebarSlided")){
+            document.querySelector(".sidebar").classList.add("sidebar-animate");
+            sessionStorage.setItem("sidebarSlided", "1");
+        }
+    }
+)
+</script>

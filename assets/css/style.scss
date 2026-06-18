@@ -47,6 +47,14 @@ footer {
     anchor-name: --my-anchor;
     background: #e7e7e7 url(../images/topbar-bg.png) 0 0 repeat;
 }
+@keyframes sidebar-slide {
+    from {width: 0; opacity: 0; overflow: hidden; white-space: nowrap;}
+    to {width:7vw; opacity: 100%; overflow:auto; white-space: nowrap;}
+}
+.sidebar-animate {
+    animation-name: sidebar-slide;
+    animation-duration: 1s;
+}
 .sidebar {
     background-color: #171717;
 	color: #FDFDFB;
@@ -63,6 +71,7 @@ footer {
 	padding: 20px 25px 22px 30px;
 	margin: 7vh 25px 0 0;
 	-webkit-font-smoothing: antialiased;
+    white-space: wrap;
 }
 .sidebar .site-title {
     font-size: 15px;
@@ -94,12 +103,22 @@ footer {
     display: flex;
     flex-direction: column;
 }
+@keyframes header-type {
+    from {width: 0; overflow: hidden; white-space: nowrap;}
+    to {width: 100%; overflow: auto; white-space: wrap;}
+}
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 48px; font-weight: 900;
   line-height: 1.2;
   color: #303030;
   letter-spacing: -1px;
+  animation-name: header-type;
+  animation-duration: 3s;
+}
+header h2 {
+  animation-name: header-type;
+  animation-duration: 3s;
 }
 header {
     padding-bottom: 10px;
