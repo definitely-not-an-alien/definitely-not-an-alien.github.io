@@ -25,11 +25,13 @@ Greetings, humans!
 </div>
 <div style="display:flex; align-items: center; width:100%;justify-content: center;">a 2nd-Year Computer Science Undergraduate at the University of Oxford (matriculated 2024).</div>
 
-You may also know me as
-- Acie
-- Amos
-- AC
-- a moose
+<ul style="display: inline-block;">
+<span style="font-size: 18px;color: #6d6d6d;font-weight: 300;">You may also know me as</span>
+<li style="display: inline-block;">- Acie</li>
+<li style="display: inline-block;">- Amos</li>
+<li style="display: inline-block;">- AC</li>
+<li style="display: inline-block;">- a moose</li> 
+</ul>
 
 If you'd like to connect/chat, I am on [Github](https://github.com/definitely-not-an-alien) and [LinkedIn](https://www.linkedin.com/in/amos-cl-cheung/). If you want more ways to contact me, check out [Contact](/contact).
 
