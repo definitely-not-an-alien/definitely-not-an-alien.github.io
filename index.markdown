@@ -23,7 +23,7 @@ You may also know me as
 - AC
 - a moose
 
-If you'd like to connect/chat, you can find me on my [LinkedIn](https://www.linkedin.com/in/amos-cl-cheung/). If you want more ways to contact me, check out [Contact](/contact).
+If you'd like to connect/chat, I am on [Github](https://github.com/definitely-not-an-alien) and [LinkedIn](https://www.linkedin.com/in/amos-cl-cheung/). If you want more ways to contact me, check out [Contact](/contact).
 
 I don't really have fixed interests and am more keen on exploring more about different stuff *mostly in the field of computer science*. Anything ranging from machine learning, numerical analysis, formal logic, simulations/modelling, heuristics algorithms, computer security, to music, bass playing, literature, games, football, video/photo editing, *etc etc you get the gist, i like fun stuff*.
 

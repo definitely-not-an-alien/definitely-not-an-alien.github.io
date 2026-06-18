@@ -22,5 +22,13 @@
             </div>
         </nav>
         {%- endunless %}
+        <hr>
+        <div class="socials">
+            {%- for contact in site.contacts -%}
+            <a class="social-icon" href="{{ contact.url }}">
+                <img class="social-icon" src="{{ contact.image }}">
+            </a>
+            {%- endfor -%}
+        </div>
     </div>
 </div>

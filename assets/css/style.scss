@@ -113,3 +113,15 @@ header {
     padding-right: 15vw;
     font-size: 18px;
 }
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+.social-icon :hover {
+    opacity: 75%;
+}
